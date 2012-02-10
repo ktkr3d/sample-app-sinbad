@@ -2,7 +2,7 @@ Sinbad OpenNI Sample Application for Linux
 
 Requirements:
     libogre-dev
-    lib-devois
+    libois-dev
     codeblocks
     OpenNI (https://github.com/OpenNI/OpenNI/tree/unstable)
     avin2-sensor (https://github.com/avin2/SensorKinect)
