@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="include/SampleBrowser.h" open="1" top="0" tabpos="3">
+		<Cursor position="18724" topLine="506" />
+	</File>
+	<File name="src/FileSystemLayerImpl_Unix.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="3049" topLine="68" />
+	</File>
+	<File name="src/SampleBrowser.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="1438" topLine="3" />
+	</File>
+</CodeBlocks_layout_file>

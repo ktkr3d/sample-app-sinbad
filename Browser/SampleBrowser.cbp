@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Sinbad" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../bindbg/Sinbad" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="OgreMain_d" />
+					<Add library="OIS_d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="../bin/Sinbad" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="OIS" />
+					<Add library="OgreMain" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="`pkg-config --cflags OGRE`" />
+			<Add option="-fexceptions" />
+			<Add directory="include" />
+			<Add directory="../Common/include" />
+		</Compiler>
+		<Linker>
+			<Add option="`pkg-config --libs OGRE`" />
+			<Add library="GL" />
+			<Add directory="/bin/Debug" />
+			<Add directory="/bin/Release" />
+		</Linker>
+		<Unit filename="include/FileSystemLayerImpl.h" />
+		<Unit filename="include/SampleBrowser.h" />
+		<Unit filename="src/FileSystemLayerImpl_Unix.cpp" />
+		<Unit filename="src/SampleBrowser.cpp" />
+		<Unit filename="../Common/include/FileSystemLayer.h" />
+		<Unit filename="../Common/include/OgreStaticPluginLoader.h" />
+		<Unit filename="../Common/include/Sample.h" />
+		<Unit filename="../Common/include/SampleContext.h" />
+		<Unit filename="../Common/include/SamplePlugin.h" />
+		<Unit filename="../Common/include/SdkCameraMan.h" />
+		<Unit filename="../Common/include/SdkSample.h" />
+		<Unit filename="../Common/include/SdkTrays.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
