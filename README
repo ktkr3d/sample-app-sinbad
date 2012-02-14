@@ -1,6 +1,9 @@
-Sinbad OpenNI Sample Application for Linux
+Sample app sinbad
+-----------------
+    Sinbad OpenNI sample application for Linux
 
-Requirements:
+Requirements
+------------
     libogre-dev
     libois-dev
     codeblocks
@@ -8,13 +11,15 @@ Requirements:
     avin2-sensor (https://github.com/avin2/SensorKinect)
     NITE (http://www.openni.org/Downloads/OpenNIModules.aspx)
 
-Include Path:
+Include path
+------------
     /usr/include/OGRE
     /usr/include/OIS
     /usr/include/ni
     /usr/include/nite
 
-Original Source Code Repository:
+Original source code repository
+-------------------------------
     https://github.com/OpenNI/SampleAppSinbad
     See README.2nd for detail.
 
